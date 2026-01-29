@@ -1,24 +1,46 @@
-# SauceDemo UI Tests
+# Saucedemo UI Tests
 
-UI автотесты для страницы логина https://www.saucedemo.com/
+Автоматизированные UI-тесты для проверки авторизации на сайте  
+https://www.saucedemo.com/
 
-## Стек
-- Java 17
+##  Tech stack
+- Java
 - Selenium WebDriver
 - JUnit 5
 - Maven
-- Allure
+- Allure Reports
+- Page Object Model (POM)
 
-## Реализованные тесты
-- Логин с пустыми полями
-- Логин с неверным паролем
-- Логин заблокированным пользователем
-- Успешный логин
-- Логин пользователя со сбоем производительности
+##  Project structure
+src
+└── test
+├── java
+│ ├── pages // Page Object classes
+│ ├── tests // Test classes
+│ └── base // Base test configuration
+└── resources
 
-## Запуск тестов
+
+##  Test scenarios
+- Successful login (standard_user)
+- Login with wrong password
+- Login with locked user
+- Login with empty fields
+- Login with performance_glitch_user (with wait for page loading)
+
+## ▶ How to run tests
 ```bash
 mvn clean test
-## **Запуск отчета**
-```bash
-allure serve target/allure-results 
+📊 Allure report
+After test execution, Allure results will be generated in:
+
+target/allure-results
+To open the report (if Allure CLI is installed):
+
+allure serve target/allure-results
+📌 Notes
+Each test is independent
+
+Page Object Model is used to separate test logic from UI logic
+
+Project is managed via Git with separate dev and main branches
