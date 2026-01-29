@@ -13,12 +13,13 @@ https://www.saucedemo.com/
 
 ##  Project structure
 src
+src
 └── test
 ├── java
-│ ├── pages // Page Object classes
-│ ├── tests // Test classes
-│ └── base // Base test configuration
-└── resources
+│   ├── pages        // Page Object classes
+│   ├── tests        // Test classes
+│   └── base         // Base test
+└── resources        // Configuration files
 
 
 ##  Test scenarios
