@@ -1,14 +1,20 @@
 # SauceDemo UI Tests
 
-UI automation tests for https://www.saucedemo.com/
+UI автотесты для страницы логина https://www.saucedemo.com/
 
-## Tech stack
-- Java
+## Стек
+- Java 17
 - Selenium WebDriver
 - JUnit 5
 - Maven
-- Page Object Model12
+- Allure
 
-## How to run tests
+## Реализованные тесты
+- Логин с пустыми полями
+- Логин с неверным паролем
+- Логин заблокированным пользователем
+- Успешный логин
+
+## Запуск тестов
 ```bash
 mvn clean test
