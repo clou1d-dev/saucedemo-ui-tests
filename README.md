@@ -19,7 +19,7 @@ src
 │   ├── pages        // Page Object classes
 │   ├── tests        // Test classes
 │   └── base         // Base test
-└── resources        // Configuration files
+└── resources        // Configuration files 
 
 
 ##  Test scenarios
