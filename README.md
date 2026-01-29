@@ -19,3 +19,6 @@ UI автотесты для страницы логина https://www.saucedemo
 ## Запуск тестов
 ```bash
 mvn clean test
+## **Запуск отчета**
+```bash
+allure serve target/allure-results 
