@@ -11,15 +11,16 @@ https://www.saucedemo.com/
 - Allure Reports
 - Page Object Model (POM)
 
-##  Project structure
-src
+## Project structure
+
+```text
 src
 └── test
-├── java
-│   ├── pages        // Page Object classes
-│   ├── tests        // Test classes
-│   └── base         // Base test
-└── resources        // Configuration files 
+    ├── java
+    │   ├── pages       // Page Object classes
+    │   ├── tests       // Test classes
+    │   └── base        // Base test setup
+    └── resources       // Configuration files
 
 
 ##  Test scenarios
