@@ -7,7 +7,7 @@ UI automation tests for https://www.saucedemo.com/
 - Selenium WebDriver
 - JUnit 5
 - Maven
-- Page Object Model
+- Page Object Model12
 
 ## How to run tests
 ```bash
